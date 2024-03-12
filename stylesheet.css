@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing:border-box;
+    
+
+    
+}
+
+body{
+    background-color:beige;
+   
+    
+   
+}
+
+.header{
+    background-color: white;
+    
+   
+   
+}
+
+.header img{
+
+    width:20rem;
+    height:10rem;
+    
+}
+
+.header img {
+    margin-left: 35rem;
+}
+
+.header h3{
+   font-size: 2rem;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   margin-left: 39rem;
+}
+
+.middle{
+    margin-left: 39rem;
+    margin-top: 2rem;
+}
+
+.middle h4, h5{
+
+    font-size: 1.2rem;
+}
+
+.form_box , .segmentA, .segmentB{
+    margin-left: auto;
+    margin-right: auto;
+    width: 39rem;
+    background-color: white;
+    height:20rem;
+    border-radius: 20px;
+    padding: 5rem;
+}
+
+.radio{
+    
+    padding: 1rem;
+    display: flex;
+    gap:1rem;
+}
+
+.checkbox{
+    padding: 1rem;
+    display: flex;
+    gap:1rem;
+    
+   
+}
+
+.button{
+
+    margin-left: 8rem;
+    height:2rem;
+    width:10rem;
+    border-radius: 10px;
+
+}
+
+
+
+.form_box input[type=text] {
+
+ margin:0.8rem;   
+ border: none;
+ outline: none;
+ border-bottom: 1px solid black;
+}
+
+.cards .card{
+    background-color:white ;
+    height:15rem;
+    width:20rem;
+    margin-top: 2rem;
+    margin-left: 40%;
+    gap:2rem;
+    padding-left: 2rem;
+    border-radius: 20%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 4rem;
+    margin-top: 3rem;
+}
+
+
+.segmentA{
+    margin-top: 4rem;
+}
+
+.segmentB{
+    margin-top: 4rem;
+}
+
+.segmentA h3{
+
+    font-size: 2rem;
+    padding-left: 4rem;
+   
+}
+
+.segmentB h3{
+
+    font-size: 2rem;
+    padding-left: 4rem;
+   
+}
+
